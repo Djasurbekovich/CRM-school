@@ -1,0 +1,223 @@
+.single {
+  &__wrap {
+    position: absolute;
+    width: 80%;
+    top: 18%;
+    right: 2%;
+    z-index: -1;
+  }
+  &__title {
+    font-weight: bold;
+    font-size: x-large;
+    text-transform: capitalize;
+    text-align: left;
+  }
+  &__box {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+  }
+  &__box-left {
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    row-gap: 25px;
+    background-color: #ffffff;
+    border-radius: 5px;
+    padding: 20px;
+    box-shadow: 1px 5px 15px #d3d3d3;
+  }
+  &__left-start {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  &__name {
+    font-family: "Varela Round", sans-serif;
+    font-weight: bold;
+    font-size: larger;
+    letter-spacing: 0.5px;
+  }
+  &__item {
+    display: flex;
+    flex-direction: column;
+    row-gap: 15px;
+  }
+  &__item-box {
+    display: flex;
+    flex-direction: column;
+    row-gap: 5px;
+    line-height: 20px;
+  }
+  &__text {
+    font-family: "Varela Round", sans-serif;
+    font-size: 15px;
+    span {
+      font-weight: bold;
+    }
+  }
+  &__icon {
+    font-size: large;
+    color: #808080;
+    background-color: initial;
+    border: none;
+  }
+  &__line-modal {
+    width: 100%;
+    border: 1px solid #d3d3d3;
+    border-radius: 8px;
+    margin: 15px 0 20px;
+  }
+  &__modal {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    row-gap: 20px;
+  }
+  &__input-box {
+    width: 80%;
+    display: flex;
+    align-items: center;
+    border-radius: 5px;
+    box-shadow: 1px 1px 10px #d3d3d3;
+  }
+  &__num {
+    font-family: "Varela Round", sans-serif;
+    font-weight: bold;
+    font-size: 16px;
+    letter-spacing: 0.5px;
+    background-color: #d3d3d3;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    padding: 10px;
+  }
+  &__input-n {
+    width: 100%;
+    height: 45px;
+    font-family: "Varela Round", sans-serif;
+    font-size: 16px;
+    border: 1px solid #d3d3d3;
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+  }
+  &__input {
+    width: 80%;
+    height: 45px;
+    font-family: "Varela Round", sans-serif;
+    font-size: 16px;
+    border: 1px solid #d3d3d3;
+    box-shadow: 1px 1px 10px #d3d3d3;
+  }
+  &__radio-box {
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+    margin: 5px 0;
+  }
+  &__radio-box > div {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 50px;
+  }
+  &__radio {
+    display: flex;
+    align-items: center;
+    font-family: "Varela Round", sans-serif;
+    font-size: 16px;
+  }
+  &__modal-list {
+    display: flex;
+    flex-direction: column;
+    row-gap: 25px;
+  }
+  &__modal-item {
+    text-align: center;
+    color: #000000;
+    border: 1px solid #d3d3d3;
+    border-radius: 5px;
+    padding: 12px;
+    box-shadow: 1px 5px 10px #d3d3d3;
+    cursor: pointer;
+    &:nth-last-child(1) {
+      margin-bottom: 10px;
+    }
+  }
+  &__del-text {
+    font-family: "Varela Round", sans-serif;
+    font-size: 15px;
+    margin: 5px 0 10px;
+  }
+  &__del-btn {
+    font-family: "Varela Round", sans-serif;
+    font-size: 15px;
+    border: none;
+  }
+  &__box-right {
+    display: flex;
+    flex-direction: column;
+    row-gap: 25px;
+    color: rgb(50, 50, 50);
+  }
+  &__btns {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+  }
+  &__btn {
+    width: 280px;
+    height: 36px;
+    font-family: "Varela Round", sans-serif;
+    font-size: 16px;
+    box-shadow: 1px 1px 10px #d3d3d3;
+  }
+  &__science {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #ffffff;
+    padding: 15px 25px;
+    border-left: 5px solid #0000ff;
+    border-radius: 5px;
+    box-shadow: 1px 5px 10px #d3d3d3;
+  }
+  &__icon-flag {
+    font-size: x-large;
+    color: #808080;
+  }
+  &__box-rb {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+    background-color: #ffffff;
+    border-radius: 5px;
+    padding: 20px 15px;
+  }
+  &__display {
+    display: flex;
+    justify-content: space-between;
+  }
+  &__flex {
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+  }
+  &__line {
+    width: 100%;
+    border: 1px solid #d3d3d3;
+  }
+  &__desc {
+    font-size: 17px;
+    span {
+      font-weight: bold;
+    }
+  }
+  &__box-end {
+    text-align: center;
+    background-color: #ffffff;
+    border-radius: 5px;
+    padding: 20px;
+  }
+}

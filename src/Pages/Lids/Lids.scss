@@ -1,0 +1,88 @@
+.lids {
+  &__wrap {
+    position: absolute;
+    width: 80%;
+    top: 18%;
+    right: 2%;
+    z-index: -1;
+  }
+  &__list {
+    width: 99%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #ffffff;
+    padding: 10px;
+  }
+  &__item {
+    width: 29.29%;
+    border: 1px solid #d3d3d3;
+    padding: 20px;
+  }
+  &__title {
+    font-weight: bold;
+    font-size: 20px;
+    letter-spacing: 0.5px;
+  }
+  &__btns {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 20px 0;
+  }
+  &__input-wrap {
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+    padding: 0 10px;
+  }
+  &__input-menu {
+    width: 200px;
+  }
+  &__btn {
+    font-size: 16px !important;
+    letter-spacing: normal !important;
+    text-transform: capitalize !important;
+    color: #808080 !important;
+    &:hover {
+      background-color: #eeeeee !important;
+    }
+  }
+  &__box {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 10px;
+    padding: 10px;
+    box-shadow: 1px 1px 10px #d3d3d3;
+  }
+  &__desc-btn {
+    font-size: large !important;
+    color: rgb(50, 50, 50) !important;
+    &:hover {
+      background-color: initial !important;
+    }
+  }
+  &__name {
+    font-weight: bold;
+    font-size: 18px;
+    letter-spacing: 0.5px;
+  }
+  &__trash-btn {
+    font-size: larger !important;
+    color: #ff0000 !important;
+    &:hover {
+      background-color: initial !important;
+    }
+  }
+}
+#basic-button {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-family: "Varela Round", sans-serif;
+  color: #808080;
+}
+.MuiPaper-root {
+  box-shadow: 1px 1px 10px #d3d3d3 !important;
+}

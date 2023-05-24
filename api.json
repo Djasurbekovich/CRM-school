@@ -1,0 +1,442 @@
+{
+  "students": [
+    {
+      "id": 1,
+      "name": "Omadbek",
+      "tel": "(97) 773-33-73",
+      "balance": "412 500",
+      "condition": "Harakatsiz (Sinov)",
+      "birthday": "22/08/2002"
+    },
+    {
+      "id": 2,
+      "name": "Sevara",
+      "tel": "(97) 773-33-73",
+      "balance": "300 500",
+      "condition": "Harakatsiz (Sinov)",
+      "birthday": "22/08/2002"
+    },
+    {
+      "id": 3,
+      "name": "Nodir",
+      "tel": "(97) 773-33-73",
+      "balance": "522 500",
+      "condition": "Harakatsiz (Sinov)",
+      "birthday": "22/08/2002"
+    },
+    {
+      "id": 4,
+      "name": "Rozaliya",
+      "tel": "(97) 773-33-73",
+      "balance": "102 000",
+      "condition": "Harakatsiz (Sinov)",
+      "birthday": "22/08/2002"
+    },
+    {
+      "id": 5,
+      "name": "Malika",
+      "tel": "(97) 773-33-73",
+      "balance": "500 000",
+      "condition": "Harakatsiz (Sinov)",
+      "birthday": "22/08/2002"
+    },
+    {
+      "id": 6,
+      "name": "Baxrom",
+      "tel": "(97) 773-33-73",
+      "balance": "350 000",
+      "condition": "Harakatsiz (Sinov)",
+      "birthday": "22/08/2002"
+    },
+    {
+      "id": 7,
+      "name": "Venera",
+      "tel": "(97) 773-33-73",
+      "balance": "410 000",
+      "condition": "Harakatsiz (Sinov)",
+      "birthday": "22/08/2002"
+    },
+    {
+      "id": 8,
+      "name": "Yupiter",
+      "tel": "(97) 773-33-73",
+      "balance": "210 000",
+      "condition": "Harakatsiz (Sinov)",
+      "birthday": "22/08/2002"
+    },
+    {
+      "id": 9,
+      "name": "Azamat",
+      "tel": "(97) 773-33-73",
+      "balance": "1 000",
+      "condition": "Harakatsiz (Sinov)",
+      "birthday": "22/08/2002"
+    },
+    {
+      "id": 10,
+      "name": "Sarvar",
+      "tel": "(97) 773-33-73",
+      "balance": "20 000",
+      "condition": "Harakatsiz (Sinov)",
+      "birthday": "22/08/2002"
+    },
+    {
+      "id": 11,
+      "name": "Alisher",
+      "tel": "(97) 773-33-73",
+      "balance": "540 000",
+      "condition": "Harakatsiz (Sinov)",
+      "birthday": "22/08/2002"
+    },
+    {
+      "id": 12,
+      "name": "Ulugbek",
+      "tel": "(97) 773-33-73",
+      "balance": "1 000 000",
+      "condition": "Harakatsiz (Sinov)",
+      "birthday": "22/08/2002"
+    },
+    {
+      "id": 13,
+      "name": "Shahriyor",
+      "tel": "(97) 773-33-73",
+      "balance": "1 200 000",
+      "condition": "Harakatsiz (Sinov)",
+      "birthday": "22/08/2002"
+    },
+    {
+      "id": 14,
+      "name": "Tohir",
+      "tel": "(97) 773-33-73",
+      "balance": "200 000",
+      "condition": "Harakatsiz (Sinov)",
+      "birthday": "22/08/2002"
+    },
+    {
+      "id": 15,
+      "name": "Odilbek",
+      "tel": "(97) 773-33-73",
+      "balance": "400 000",
+      "condition": "Harakatsiz (Sinov)",
+      "birthday": "22/08/2002"
+    },
+    {
+      "id": 16,
+      "name": "Erkin",
+      "tel": "(97) 773-33-73",
+      "balance": "600 000",
+      "condition": "Harakatsiz (Sinov)",
+      "birthday": "22/08/2002"
+    }
+  ],
+
+  "teachers": [
+    {
+      "id": 1,
+      "name": "Fotima Yuldasheva",
+      "tel": "(97) 773-33-73"
+    },
+    {
+      "id": 2,
+      "name": "Muhammadillo Xakimov",
+      "tel": "(97) 773-33-73"
+    },
+    {
+      "id": 3,
+      "name": "Asal Ileysboyeva",
+      "tel": "(97) 773-33-73"
+    },
+    {
+      "id": 4,
+      "name": "Ahmad shox",
+      "tel": "(97) 773-33-73"
+    },
+    {
+      "id": 5,
+      "name": "Shaxzoda Abdullayeva",
+      "tel": "(97) 773-33-73"
+    },
+    {
+      "id": 6,
+      "name": "Ezoza Abdullayeva",
+      "tel": "(97) 773-33-73"
+    },
+    {
+      "id": 7,
+      "name": "Nafisa Ahmadaliyeva",
+      "tel": "(97) 773-33-73"
+    },
+    {
+      "id": 8,
+      "name": "Malika Elnazarova",
+      "tel": "(97) 773-33-73"
+    }
+  ],
+
+  "courses": [
+    {
+      "id": 1,
+      "img": "https://modme-crm.vercel.app/assets/books-a285f3d4.png",
+      "title": "Targetolog",
+      "price": "500 000 UZS"
+    },
+    {
+      "id": 2,
+      "img": "https://modme-crm.vercel.app/assets/books-a285f3d4.png",
+      "title": "Web",
+      "price": "600 000 UZS"
+    },
+    {
+      "id": 3,
+      "img": "https://modme-crm.vercel.app/assets/books-a285f3d4.png",
+      "title": "Web site qilish",
+      "price": "700 000 UZS"
+    },
+    {
+      "id": 4,
+      "img": "https://modme-crm.vercel.app/assets/books-a285f3d4.png",
+      "title": "English beginner",
+      "price": "400 000 UZS"
+    },
+    {
+      "id": 5,
+      "img": "https://modme-crm.vercel.app/assets/books-a285f3d4.png",
+      "title": "Rus tili",
+      "price": "400 000 UZS"
+    },
+    {
+      "id": 6,
+      "img": "https://modme-crm.vercel.app/assets/books-a285f3d4.png",
+      "title": "SMM",
+      "price": "500 000 UZS"
+    },
+    {
+      "id": 7,
+      "img": "https://modme-crm.vercel.app/assets/books-a285f3d4.png",
+      "title": "3D's MAX",
+      "price": "800 000 UZS"
+    },
+    {
+      "id": 8,
+      "img": "https://modme-crm.vercel.app/assets/books-a285f3d4.png",
+      "title": "Grafik dizayn",
+      "price": "500 000 UZS"
+    }
+  ],
+
+  "groups": [
+    {
+      "id": 11580,
+      "name": "SMM",
+      "teacher": "Ezoza Abdullayeva",
+      "time": "08:00",
+      "days": "Boshqa",
+      "price": "500 000",
+      "room": "1-xona",
+      "start": "01/02/2023",
+      "end": "25/06/2023",
+      "condition": "active"
+    },
+    {
+      "id": 11508,
+      "name": "Motion Grafika",
+      "teacher": "Asal Ileysboyeva",
+      "time": "08:00",
+      "days": "Boshqa",
+      "price": "700 000",
+      "room": "1-xona",
+      "start": "10/02/2023",
+      "end": "25/07/2023",
+      "condition": "active"
+    },
+    {
+      "id": 11532,
+      "name": "Arab tili",
+      "teacher": "Nafisa Ahmadaliyeva",
+      "time": "08:00",
+      "days": "Juft kunlar",
+      "price": "300 000",
+      "room": "2-xona",
+      "start": "01/04/2023",
+      "end": "25/07/2023",
+      "condition": "active"
+    },
+    {
+      "id": 11523,
+      "name": "3D's MAX",
+      "teacher": "Shaxzoda Abdullayeva",
+      "time": "08:00",
+      "days": "Boshqa",
+      "price": "700 000",
+      "room": "2-xona",
+      "start": "25/01/2023",
+      "end": "25/04/2023",
+      "condition": "active"
+    },
+    {
+      "id": 11581,
+      "name": "Rus tili",
+      "teacher": "Ezoza Abdullayeva",
+      "time": "08:00",
+      "days": "Boshqa",
+      "price": "400 000",
+      "room": "4-xona",
+      "start": "12/03/2023",
+      "end": "23/05/2023",
+      "condition": "archive"
+    },
+    {
+      "id": 11518,
+      "name": "3D's MAX",
+      "teacher": "Shaxzoda Abdullayeva",
+      "time": "08:00",
+      "days": "Boshqa",
+      "price": "800 000",
+      "room": "1-xona",
+      "start": "01/02/2023",
+      "end": "25/03/2023",
+      "condition": "archive"
+    },
+    {
+      "id": 11533,
+      "name": "Motion Grafika",
+      "teacher": "Shaxzoda Abdullayeva",
+      "time": "08:00",
+      "days": "Boshqa",
+      "price": "800 000",
+      "room": "1-xona",
+      "start": "10/02/2023",
+      "end": "25/07/2023",
+      "condition": "archive"
+    },
+    {
+      "id": 11599,
+      "name": "3D's MAX",
+      "teacher": "Fotima Yuldasheva",
+      "time": "08:00",
+      "days": "Boshqa",
+      "price": "600 000",
+      "room": "1-xona",
+      "start": "20/01/2023",
+      "end": "25/04/2023",
+      "condition": "archive"
+    }
+  ],
+
+  "staffs": [
+    {
+      "id": 1,
+      "name": "Ruslan Yuldashev",
+      "tel": "(97) 773-33-73",
+      "role": "CEO direktor",
+      "birthday": "12/03/1989"
+    },
+    {
+      "id": 2,
+      "name": "Fotima Yuldasheva",
+      "tel": "(97) 773-33-73",
+      "role": "Teacher",
+      "birthday": "12/03/1992"
+    },
+    {
+      "id": 3,
+      "name": "Husan Abdullayev",
+      "tel": "(97) 773-33-73",
+      "role": "Kassir",
+      "birthday": "12/03/2004"
+    },
+    {
+      "id": 4,
+      "name": "Muhammadillo Xakimov",
+      "tel": "(97) 773-33-73",
+      "role": "Teacher",
+      "birthday": "12/03/2004"
+    },
+    {
+      "id": 5,
+      "name": "Xusniddin Xamidov",
+      "tel": "(97) 773-33-73",
+      "role": "Operator",
+      "birthday": "12/03/2004"
+    },
+    {
+      "id": 6,
+      "name": "Asal Ileysboyeva",
+      "tel": "(97) 773-33-73",
+      "role": "Teacher",
+      "birthday": "12/03/2004"
+    },
+    {
+      "id": 7,
+      "name": "Ahmad shox",
+      "tel": "(97) 773-33-73",
+      "role": "Teacher",
+      "birthday": "12/03/2004"
+    },
+    {
+      "id": 8,
+      "name": "Abdulmuhsin Yuldashev",
+      "tel": "(97) 773-33-73",
+      "role": "Operator",
+      "birthday": "12/03/2003"
+    },
+    {
+      "id": 9,
+      "name": "Azamat Azadov",
+      "tel": "(93) 205-24-43",
+      "role": "Admin",
+      "birthday": "22/08/2002"
+    },
+    {
+      "id": 10,
+      "name": "Shaxzoda Abdullayeva",
+      "tel": "(97) 773-33-73",
+      "role": "Teacher",
+      "birthday": "01/08/2003"
+    },
+    {
+      "id": 11,
+      "name": "Ezoza Abdullayeva",
+      "tel": "(97) 773-33-73",
+      "role": "Teacher",
+      "birthday": "12/03/2003"
+    },
+    {
+      "id": 12,
+      "name": "Nafisa Ahmadaliyeva",
+      "tel": "(97) 773-33-73",
+      "role": "Teacher",
+      "birthday": "04/05/2003"
+    },
+    {
+      "id": 13,
+      "name": "Malika Elnazarova",
+      "tel": "(97) 773-33-73",
+      "role": "Teacher",
+      "birthday": "04/05/2003"
+    }
+  ],
+
+  "rooms": [
+    {
+      "id": 1,
+      "name": "1-xona"
+    },
+    {
+      "id": 2,
+      "name": "2-xona"
+    },
+    {
+      "id": 3,
+      "name": "3-xona"
+    },
+    {
+      "id": 4,
+      "name": "4-xona"
+    },
+    {
+      "id": 5,
+      "name": "5-xona"
+    }
+  ]
+}

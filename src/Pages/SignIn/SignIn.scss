@@ -1,0 +1,150 @@
+.sign {
+  width: 400px;
+  margin: 0 auto;
+  padding: 150px 0;
+  &__body {
+    background: linear-gradient(-45deg, #bd52ee, #453ce7, #23a6d5, #23d5ab);
+    background-size: 400% 400%;
+    animation: gradient 15s ease infinite;
+    height: 100vh;
+  }
+  &__triangle {
+    width: 0;
+    margin-right: auto;
+    margin-left: auto;
+    border: 12px solid transparent;
+    border-bottom-color: #28d;
+  }
+  &__header {
+    background-color: #28d;
+    padding: 20px;
+    font-size: 1.4em;
+    font-weight: normal;
+    text-align: center;
+    text-transform: uppercase;
+    color: #fff;
+  }
+  &__container {
+    display: flex;
+    flex-direction: column;
+    background-color: #ebebeb;
+    padding: 20px;
+    gap: 20px;
+  }
+  & input,
+  & button {
+    box-sizing: border-box;
+    display: block;
+    width: 100%;
+    border-width: 1px;
+    border-style: solid;
+    padding: 16px;
+    outline: 0;
+    font-family: inherit;
+    font-size: 0.95em;
+  }
+  & input[type="email"],
+  & input[type="password"] {
+    background-color: #fff;
+    border-color: #bbb;
+    color: #00008b;
+  }
+  & input[type="email"]:focus,
+  & input[type="password"]:focus {
+    border-color: #888;
+  }
+  & button[type="submit"] {
+    background-color: #28d;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+  }
+  &__btn,
+  &__btn *,
+  &__btn :after,
+  &__btn :before,
+  &__btn:after,
+  &__btn:before {
+    box-sizing: border-box;
+    border: none;
+  }
+  &__btn {
+    -webkit-tap-highlight-color: transparent;
+    font-weight: bold;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: #fff;
+    cursor: pointer;
+  }
+  &__btn:disabled {
+    cursor: default;
+  }
+  &__btn:-moz-focusring {
+    outline: auto;
+  }
+  &__btn [hidden] {
+    display: none;
+  }
+  &__btn {
+    position: relative;
+    overflow: hidden;
+    border-radius: 1rem;
+    z-index: 0;
+  }
+  &__btn span {
+    mix-blend-mode: lighten;
+  }
+  &__btn:after,
+  &__btn:before {
+    --tilt: 40px;
+    background-color: #17c;
+    -webkit-clip-path: polygon(
+      0 0,
+      100% 0,
+      calc(100% - var(--tilt)) 50%,
+      100% 100%,
+      0 100%
+    );
+    clip-path: polygon(
+      0 0,
+      100% 0,
+      calc(100% - var(--tilt)) 50%,
+      100% 100%,
+      0 100%
+    );
+    content: "";
+    display: block;
+    height: 100%;
+    left: -100%;
+    position: absolute;
+    top: 0;
+    transition: transform 0.5s ease;
+    width: 100%;
+  }
+  &__btn:after {
+    -webkit-clip-path: polygon(0 0, var(--tilt) 50%, 0 100%, 100% 100%, 100% 0);
+    clip-path: polygon(0 0, var(--tilt) 50%, 0 100%, 100% 100%, 100% 0);
+    left: 100%;
+    z-index: -1;
+  }
+  &__btn:hover:before {
+    transform: translateX(calc(50% + var(--tilt)));
+  }
+  &__btn:hover:after {
+    transform: translateX(calc(-50% - var(--tilt)));
+  }
+  &__btn:active {
+    box-shadow: 1px 1px 10px #28d;
+  }
+}
+@keyframes gradient {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
