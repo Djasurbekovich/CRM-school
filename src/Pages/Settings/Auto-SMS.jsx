@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import Sidenav from "../../Components/Sidenav/Sidenav";
+import Sidenavbar from "../../Components/Sidenavbar/Sidenavbar";
 import { Link } from "react-router-dom";
 import { Button, Switch } from "antd";
 import { FaMousePointer } from "react-icons/fa";
@@ -19,7 +19,7 @@ const AutoSMS = () => {
 
   return (
     <>
-      <Sidenav />
+      <Sidenavbar />
       <div className="set__wrap">
         <div
           className="set__btns"

@@ -1,12 +1,13 @@
 .students {
   &__wrap {
     position: absolute;
-    width: 80%;
-    top: 18%;
-    right: 2%;
+    width: 93%;
+    top: 13%;
+    left: 7.5%;
     z-index: -1;
   }
   &__start {
+    width: 96%;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -19,7 +20,7 @@
     color: #000000;
   }
   &__line {
-    width: 100%;
+    width: 96%;
     border: 2px solid #ffffff;
     border-radius: 8px;
     margin: 15px 0;
@@ -86,7 +87,7 @@
     width: 96%;
     border-radius: 16px;
     background-color: #ffffff;
-    padding: 25px;
+    padding: 25px 25px 0;
     box-shadow: 1px 1px 10px #d3d3d3;
   }
   &__titles {
@@ -94,7 +95,7 @@
     align-items: center;
     justify-content: space-between;
     border-bottom: 1px solid #d3d3d3;
-    padding-bottom: 16px;
+    padding-bottom: 23px;
   }
   &__title-t {
     font-weight: bold;

@@ -1,13 +1,13 @@
 .lids {
   &__wrap {
     position: absolute;
-    width: 80%;
-    top: 18%;
-    right: 2%;
+    width: 90%;
+    top: 15%;
+    right: 3%;
     z-index: -1;
   }
   &__list {
-    width: 99%;
+    width: 100%;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -15,7 +15,7 @@
     padding: 10px;
   }
   &__item {
-    width: 29.29%;
+    width: 32.7%;
     border: 1px solid #d3d3d3;
     padding: 20px;
   }

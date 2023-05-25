@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import Sidenavbar from "../../Components/Sidenavbar/Sidenavbar";
 import DatePicker from "react-datepicker";
 import "react-datepicker/dist/react-datepicker.css";
 import { Calendar, dateFnsLocalizer } from "react-big-calendar";
@@ -7,15 +8,14 @@ import format from "date-fns/format";
 import parse from "date-fns/parse";
 import startOfWeek from "date-fns/startOfWeek";
 import getDay from "date-fns/getDay";
-import Sidenav from "../../Components/Sidenav/Sidenav";
 import { Button, Input } from "antd";
-import "./Home.scss";
 import {
   FaExclamationTriangle,
   FaUserCheck,
   FaUserGraduate,
   FaUsers,
 } from "react-icons/fa";
+import "./Home.scss";
 
 const locales = {
   "en-US": require("date-fns/locale/en-US"),
@@ -57,7 +57,7 @@ const Home = () => {
 
   return (
     <div className="home__wrap">
-      <Sidenav />
+      <Sidenavbar />
       <div className="home__calendar">
         <ul className="home__list">
           <li className="home__item">

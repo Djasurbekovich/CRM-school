@@ -1,9 +1,9 @@
 .single {
   &__wrap {
     position: absolute;
-    width: 80%;
-    top: 18%;
-    right: 2%;
+    width: 93%;
+    top: 15%;
+    right: 1.5%;
     z-index: -1;
   }
   &__title {
@@ -11,14 +11,17 @@
     font-size: x-large;
     text-transform: capitalize;
     text-align: left;
+    &:nth-child(1) {
+      padding-left: 27px;
+    }
   }
   &__box {
     display: flex;
     align-items: flex-start;
-    justify-content: space-between;
+    justify-content: space-around;
   }
   &__box-left {
-    width: 20%;
+    width: 23%;
     display: flex;
     flex-direction: column;
     row-gap: 25px;
@@ -155,8 +158,8 @@
     gap: 30px;
   }
   &__btn {
-    width: 280px;
-    height: 36px;
+    width: 310px;
+    height: 40px;
     font-family: "Varela Round", sans-serif;
     font-size: 16px;
     box-shadow: 1px 1px 10px #d3d3d3;

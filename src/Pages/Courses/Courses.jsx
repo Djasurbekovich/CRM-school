@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 import { instance } from "../../API/instance";
-import Sidenav from "../../Components/Sidenav/Sidenav";
+import Sidenavbar from "../../Components/Sidenavbar/Sidenavbar";
 import { Button, Input, Modal, Radio, Select } from "antd";
 import TextArea from "antd/es/input/TextArea";
 import "./Courses.scss";
@@ -32,7 +32,7 @@ const Courses = () => {
 
   return (
     <>
-      <Sidenav />
+      <Sidenavbar />
       <div className="courses__wrap">
         <div className="courses__start">
           <h2 className="courses__title">Kurslar</h2>

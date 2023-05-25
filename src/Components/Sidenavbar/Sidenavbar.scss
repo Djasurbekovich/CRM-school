@@ -1,15 +1,8 @@
 .header {
-  position: fixed;
   width: 100%;
-  box-sizing: border-box;
-  z-index: 1000;
   display: flex;
   align-items: center;
   justify-content: space-between;
-  background-color: #ffffff;
-  padding: 25px 30px;
-  margin-bottom: 5px;
-  box-shadow: 1px 1px 10px #808080;
   &__input {
     position: relative;
     width: 300px;
@@ -21,9 +14,9 @@
     border-radius: 1rem;
   }
   &__search {
-    position: absolute;
-    top: 40px;
-    left: 295px;
+    position: relative;
+    top: 2px;
+    right: 33px;
     font-size: 16px;
     color: #d3d3d3;
     background-color: initial;
@@ -31,22 +24,26 @@
     cursor: pointer;
   }
   &__logo {
-    width: 152px;
-    height: 48px;
+    width: 50px;
     display: flex;
+    cursor: pointer;
   }
   &__box {
     display: flex;
     align-items: center;
-    // gap: 0px;
+    gap: 10px;
   }
   &__btn {
     display: flex;
     align-items: center;
     justify-content: center;
+    color: #ffffff;
     background-color: initial;
     border: none;
     box-shadow: none;
+    &:hover {
+      color: #ffffff !important;
+    }
   }
   &__lang {
     font-family: "Varela Round", sans-serif;
@@ -60,6 +57,7 @@
   }
   &__display {
     font-size: 20px;
+    color: #ffffff;
     background-color: initial;
     border: none;
     cursor: pointer;
@@ -81,42 +79,22 @@
       color: #000000;
     }
   }
-}
-.sidenav {
-  position: fixed;
-  top: 14.7%;
-  height: 100vh;
-  z-index: 1000;
-  display: flex;
-  &__menu {
-    display: flex;
-    flex-direction: column;
-    gap: 25px;
-    font-family: "Varela Round", sans-serif;
-    font-weight: bold;
-    font-size: 18px;
-    letter-spacing: 0.5px;
-    color: rgb(50, 50, 50);
-    &:nth-child(n) {
-      padding: 0 25px;
-      box-shadow: 1px 1px 10px #808080;
+  &__list-item {
+    color: #1976d2;
+    border-bottom: 1px solid;
+    &:nth-child(7) {
+      color: #ff0000;
     }
   }
   &__icon {
-    width: 25px;
-    height: 25px;
-  }
-}
-
-@media only screen and (max-width: 450px) {
-  .header {
-    padding: 15px 0px;
-    &__input,
-    &__search {
-      display: none;
+    font-size: xx-large;
+    color: #1976d2;
+    &-end {
+      font-size: xx-large;
+      color: #ff0000;
     }
   }
-  .sidenav {
-    top: 12.5%;
-  }
+}
+hr {
+  display: none;
 }

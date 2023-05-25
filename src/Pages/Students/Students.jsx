@@ -1,10 +1,10 @@
 import React, { useEffect, useState } from "react";
 import { instance } from "../../API/instance";
-import Sidenav from "../../Components/Sidenav/Sidenav";
+import Sidenavbar from "../../Components/Sidenavbar/Sidenavbar";
 import { Button, DatePicker, Input, Modal, Radio } from "antd";
 import TextArea from "antd/es/input/TextArea";
-import { FaPencilAlt } from "react-icons/fa";
 import { Link, useNavigate } from "react-router-dom";
+import { FaPencilAlt } from "react-icons/fa";
 import "./Students.scss";
 
 const Students = () => {
@@ -48,7 +48,7 @@ const Students = () => {
 
   return (
     <>
-      <Sidenav />
+      <Sidenavbar />
       <div className="students__wrap">
         <div className="students__start">
           <h2 className="students__title">Talabalar</h2>

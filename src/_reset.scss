@@ -115,8 +115,9 @@ section {
   display: none;
 }
 body {
-  font-family: "Varela Round", sans-serif;
-  line-height: 1;
+  font-family: "Varela Round", sans-serif !important;
+  line-height: 1 !important;
+  background-color: #eeeeee !important;
 }
 menu,
 ol,

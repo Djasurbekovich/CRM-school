@@ -1,9 +1,9 @@
 import React, { useEffect, useState } from "react";
 import { instance } from "../../API/instance";
-import Sidenav from "../../Components/Sidenav/Sidenav";
+import Sidenavbar from "../../Components/Sidenavbar/Sidenavbar";
 import { Button, DatePicker, Input, Modal, Segmented, Select } from "antd";
-import { FaPencilAlt } from "react-icons/fa";
 import { Link } from "react-router-dom";
+import { FaPencilAlt } from "react-icons/fa";
 import "./Groups.scss";
 
 const Groups = () => {
@@ -36,7 +36,7 @@ const Groups = () => {
 
   return (
     <>
-      <Sidenav />
+      <Sidenavbar />
       <div className="groups__wrap">
         <div className="groups__start">
           <h2 className="groups__title">Guruhlar</h2>

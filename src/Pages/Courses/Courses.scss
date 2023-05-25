@@ -1,16 +1,18 @@
 .courses {
   &__wrap {
     position: absolute;
-    width: 80%;
-    top: 18%;
-    right: 2%;
+    width: 90%;
+    top: 13%;
+    right: 3%;
     z-index: -1;
   }
   &__start {
+    width: 97.5%;
     display: flex;
     align-items: center;
     justify-content: space-between;
     padding: 15px 10px 0;
+    margin: 0 auto;
   }
   &__title {
     font-weight: bold;
@@ -19,10 +21,10 @@
     color: #000000;
   }
   &__line {
-    width: 100%;
+    width: 97.5%;
     border: 2px solid #ffffff;
     border-radius: 8px;
-    margin: 15px 0;
+    margin: 15px auto;
   }
   &__line-modal {
     width: 100%;
@@ -61,7 +63,7 @@
     flex-wrap: wrap;
     align-items: center;
     justify-content: space-between;
-    row-gap: 25px;
+    row-gap: 30px;
     padding: 0 15px;
   }
   &__item {

@@ -1,26 +1,27 @@
 .set {
   &__wrap {
     position: absolute;
-    width: 80%;
-    top: 18%;
-    right: 1.5%;
+    width: 92%;
+    top: 15%;
+    right: 0.5%;
     z-index: -1;
   }
   &__btns {
+    width: 97%;
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 0 10px;
     margin-bottom: 25px;
   }
   &__btn {
-    width: 280px;
-    height: 36px;
+    width: 300px;
+    height: 40px;
     font-family: "Varela Round", sans-serif;
     font-size: 16px;
     box-shadow: 1px 1px 10px #d3d3d3;
   }
   &__start {
+    width: 97%;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -33,7 +34,7 @@
     color: #000000;
   }
   &__line {
-    width: 100%;
+    width: 97%;
     border: 2px solid #ffffff;
     border-radius: 8px;
     margin: 15px 0;
@@ -108,7 +109,7 @@
     width: 97%;
     border-radius: 16px;
     background-color: #ffffff;
-    padding: 15px 15px 30px;
+    padding: 0 25px;
     box-shadow: 1px 1px 10px #d3d3d3;
   }
   &__titles {
@@ -116,7 +117,7 @@
     align-items: center;
     justify-content: space-between;
     border-bottom: 1px solid #d3d3d3;
-    padding: 32px 0 16px;
+    padding: 32px 0 23px;
   }
   &__title-t {
     font-weight: bold;
@@ -154,12 +155,14 @@
     gap: 200px;
     text-align: left;
     border-bottom: 1px solid #d3d3d3;
-    padding: 16px 0;
+    padding: 23px 0;
   }
   &__sms {
     &-wrap {
       display: flex;
-      gap: 40px;
+      justify-content: space-between;
+      margin-top: 39px;
+      padding: 0 55px 0 10px;
     }
     &-title {
       font-weight: bold;
@@ -173,7 +176,7 @@
       row-gap: 15px;
     }
     &-item {
-      width: 400px;
+      width: 440px;
       display: flex;
       align-items: center;
       justify-content: space-between;
@@ -186,10 +189,10 @@
     &-item-l {
       display: flex;
       align-items: center;
-      gap: 10px;
+      gap: 20px;
     }
     &-box-e {
-      width: 100%;
+      width: 400px;
       border: 1px solid #808080;
       border-radius: 8px;
       padding: 20px;

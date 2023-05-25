@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 import { instance } from "../../API/instance";
-import Sidenav from "../../Components/Sidenav/Sidenav";
+import Sidenavbar from "../../Components/Sidenavbar/Sidenavbar";
 import {
   Button,
   DatePicker,
@@ -64,7 +64,7 @@ const Teachers = () => {
 
   return (
     <>
-      <Sidenav />
+      <Sidenavbar />
       <div className="teachers__wrap">
         <div className="teachers__start">
           <h2 className="teachers__title">O'qituvchilar</h2>

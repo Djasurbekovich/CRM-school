@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import Sidenav from "../../Components/Sidenav/Sidenav";
+import Sidenavbar from "../../Components/Sidenavbar/Sidenavbar";
 import { Link } from "react-router-dom";
 import { Button, Input, Modal } from "antd";
 import TextArea from "antd/es/input/TextArea";
@@ -21,7 +21,7 @@ const Rooms = () => {
 
   return (
     <>
-      <Sidenav />
+      <Sidenavbar />
       <div className="set__wrap">
         <div
           className="set__btns"

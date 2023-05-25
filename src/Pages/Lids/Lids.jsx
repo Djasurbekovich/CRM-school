@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import Sidenav from "../../Components/Sidenav/Sidenav";
+import Sidenavbar from "../../Components/Sidenavbar/Sidenavbar";
 import { Button, IconButton, Menu } from "@mui/material";
 import { Dropdown, Input } from "antd";
 import {
@@ -29,7 +29,7 @@ const Lids = () => {
 
   return (
     <>
-      <Sidenav />
+      <Sidenavbar />
       <div className="lids__wrap">
         <ul className="lids__list">
           <li className="lids__item">

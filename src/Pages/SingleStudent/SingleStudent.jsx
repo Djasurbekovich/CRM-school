@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 import { useParams } from "react-router-dom";
 import { instance } from "../../API/instance";
-import Sidenav from "../../Components/Sidenav/Sidenav";
+import Sidenavbar from "../../Components/Sidenavbar/Sidenavbar";
 import { Button, DatePicker, Input, Modal, Radio, Select } from "antd";
 import {
   FaCommentDots,
@@ -81,7 +81,7 @@ const SingleStudent = () => {
 
   return (
     <>
-      <Sidenav />
+      <Sidenavbar />
       <div className="single__wrap">
         <h2 className="single__title" style={{ marginBottom: "25px" }}>
           {data.name}
