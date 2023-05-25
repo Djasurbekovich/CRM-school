@@ -3,7 +3,7 @@ import { useParams } from "react-router-dom";
 import { instance } from "../../API/instance";
 import Sidenav from "../../Components/Sidenav/Sidenav";
 import { Button, DatePicker, Input, Modal, Radio, Select } from "antd";
-import { FaFlag, FaPen, FaTrash } from "react-icons/fa";
+import { FaMinusCircle, FaPen, FaPlusCircle, FaTrash } from "react-icons/fa";
 import "./SingleGroup.scss";
 
 const SingleGroup = () => {
@@ -11,6 +11,20 @@ const SingleGroup = () => {
 
   const [data, setData] = useState([]);
   const [isModalOpen, setIsModalOpen] = useState(false);
+  const [toggle, setToggle] = useState(false);
+  const [toggle2, setToggle2] = useState(false);
+  const [toggle3, setToggle3] = useState(false);
+  const [toggle4, setToggle4] = useState(false);
+  const [toggle5, setToggle5] = useState(false);
+  const [toggle6, setToggle6] = useState(false);
+  const [toggle7, setToggle7] = useState(false);
+  const [toggle8, setToggle8] = useState(false);
+  const [toggle9, setToggle9] = useState(false);
+  const [toggle10, setToggle10] = useState(false);
+  const [toggle11, setToggle11] = useState(false);
+  const [toggle12, setToggle12] = useState(false);
+  const [toggle13, setToggle13] = useState(false);
+  const [toggle14, setToggle14] = useState(false);
 
   useEffect(() => {
     instance
@@ -39,30 +53,30 @@ const SingleGroup = () => {
     modal.confirm({
       title: "Delete",
       content: (
-        <p className="single__del-text">Do you want to delete this group?</p>
+        <p className="single2__del-text">Do you want to delete this group?</p>
       ),
       okText: (
-        <Button className="single__del-btn" type="primary">
+        <Button className="single2__del-btn" type="primary">
           Ok
         </Button>
       ),
-      cancelText: <Button className="single__del-btn">Cancel</Button>,
+      cancelText: <Button className="single2__del-btn">Cancel</Button>,
     });
   };
 
   return (
     <>
       <Sidenav />
-      <div className="single__wrap">
-        <h2 className="single__title" style={{ marginBottom: "25px" }}>
+      <div className="single2__wrap">
+        <h2 className="single2__title" style={{ marginBottom: "25px" }}>
           {data.gropName} * {data.category} * {data.teacher}
         </h2>
-        <div className="single__box">
-          <div className="single__box-left">
-            <div className="single__left-start">
-              <h3 className="single__name">{data.gropName}</h3>
-              <div className="single__icons">
-                <Button className="single__icon" onClick={showModal}>
+        <div className="single2__box">
+          <div className="single2__box-left">
+            <div className="single2__left-start">
+              <h3 className="single2__name">{data.gropName}</h3>
+              <div className="single2__icons">
+                <Button className="single2__icon" onClick={showModal}>
                   <FaPen />
                 </Button>
                 <Modal
@@ -70,10 +84,10 @@ const SingleGroup = () => {
                   open={isModalOpen}
                   onOk={handleOk}
                   onCancel={handleCancel}>
-                  <div className="single__line-modal"></div>
-                  <div className="single__modal">
+                  <div className="single2__line-modal"></div>
+                  <div className="single2__modal">
                     <Input
-                      className="single__input"
+                      className="single2__input"
                       type="text"
                       placeholder="Nomi"
                     />
@@ -234,87 +248,228 @@ const SingleGroup = () => {
                       ]}
                     />
                     <DatePicker
-                      className="single__input"
+                      className="single2__input"
                       placeholder="Guruhni boshlash vaqti"
                       style={{ marginBottom: "10px" }}
                     />
                   </div>
                 </Modal>
-                <Button className="single__icon" onClick={confirm}>
+                <Button className="single2__icon" onClick={confirm}>
                   <FaTrash />
                 </Button>
                 {contextHolder}
               </div>
             </div>
-            <div className="single__item">
-              <p className="single__desc">
+            <div className="single2__item">
+              <p className="single2__desc">
                 {data.category} * {data.teacher}
               </p>
-              <div className="single__item-box">
-                <p className="single__text">
+              <div className="single2__item-box">
+                <p className="single2__text">
                   Narxi: <span>... so'm</span>
                 </p>
-                <p className="single__text">
+                <p className="single2__text">
                   Kunlar: <span>{data.day}</span>
                 </p>
               </div>
-              <div className="single__item-box">
-                <p className="single__text">
+              <div className="single2__item-box">
+                <p className="single2__text">
                   Xonalar: <span>{data.room}</span>
                 </p>
-                <p className="single__text">
+                <p className="single2__text">
                   Boshlash: <span>{data.startTime}</span>
                 </p>
               </div>
-              <div className="single__item-box">
-                <p className="single__text">
+              <div className="single2__item-box">
+                <p className="single2__text">
                   Boshlash sanasi: <span>{data.startGroup}</span>
                 </p>
-                <p className="single__text">
+                <p className="single2__text">
                   Tugash sanasi: <span>{data.endGroup}</span>
                 </p>
               </div>
             </div>
           </div>
-          <div className="single__box-right">
-            <div className="single__btns">
-              <Button className="single__btn">Profil</Button>
-              <Button className="single__btn">Qo'ng'iroqlar tarixi</Button>
-              <Button className="single__btn">Tarix</Button>
+          <div className="single2__box-right">
+            <div className="single2__btns">
+              <Button className="single2__btn">Davomat</Button>
+              <Button className="single2__btn">Chegirmalar</Button>
             </div>
-            <div className="single__science">
-              <h3 className="single__name">{data.category}</h3>
-              <FaFlag className="single__icon-flag" />
-            </div>
-            <h2 className="single__title">Guruhlar</h2>
-            <div className="single__box-rb">
-              <div className="single__display">
-                <div className="single__flex">
-                  <h3 className="single__name">{data.category}</h3>
-                  <h3 className="single__name">O'qituvchi</h3>
-                </div>
-                <div className="single__flex">
-                  <p className="single__text">Boshlash sanasi</p>
-                  <p className="single__text">Tugash sanasi</p>
-                  <p>Kun * Vaqt</p>
-                </div>
+            <div className="single2__table">
+              <div className="single2__titles">
+                <h4 className="single2__title-t">Ismi</h4>
+                <h4 className="single2__title-t">01</h4>
+                <h4 className="single2__title-t">03</h4>
+                <h4 className="single2__title-t">05</h4>
+                <h4 className="single2__title-t">08</h4>
+                <h4 className="single2__title-t">10</h4>
+                <h4 className="single2__title-t">12</h4>
+                <h4 className="single2__title-t">15</h4>
+                <h4 className="single2__title-t">17</h4>
+                <h4 className="single2__title-t">19</h4>
+                <h4 className="single2__title-t">22</h4>
+                <h4 className="single2__title-t">24</h4>
+                <h4 className="single2__title-t">26</h4>
+                <h4 className="single2__title-t">29</h4>
+                <h4 className="single2__title-t">31</h4>
               </div>
-              <div className="single__line"></div>
-              <div className="single__flex">
-                <p className="single__desc">
-                  Holat: <span>Harakatsiz (Sinov)</span>
-                </p>
-                <p className="single__desc">
-                  Talaba qo'shilgan sana: <span>20/07/2023</span>
-                </p>
-                <p className="single__desc">
-                  Bu talaba uchun narx: <span>... so'm</span>
-                </p>
+              <div className="single2__texts">
+                <p className="single2__text">{data.teacher}</p>
+                <button
+                  className="single2__btn-icons"
+                  onClick={() => {
+                    setToggle(!toggle);
+                  }}>
+                  {toggle ? (
+                    <FaMinusCircle className="single2__minus" />
+                  ) : (
+                    <FaPlusCircle className="single2__plus" />
+                  )}
+                </button>
+                <button
+                  className="single2__btn-icons"
+                  onClick={() => {
+                    setToggle2(!toggle2);
+                  }}>
+                  {toggle2 ? (
+                    <FaMinusCircle className="single2__minus" />
+                  ) : (
+                    <FaPlusCircle className="single2__plus" />
+                  )}
+                </button>
+                <button
+                  className="single2__btn-icons"
+                  onClick={() => {
+                    setToggle3(!toggle3);
+                  }}>
+                  {toggle3 ? (
+                    <FaMinusCircle className="single2__minus" />
+                  ) : (
+                    <FaPlusCircle className="single2__plus" />
+                  )}
+                </button>
+                <button
+                  className="single2__btn-icons"
+                  onClick={() => {
+                    setToggle4(!toggle4);
+                  }}>
+                  {toggle4 ? (
+                    <FaMinusCircle className="single2__minus" />
+                  ) : (
+                    <FaPlusCircle className="single2__plus" />
+                  )}
+                </button>
+                <button
+                  className="single2__btn-icons"
+                  onClick={() => {
+                    setToggle5(!toggle5);
+                  }}>
+                  {toggle5 ? (
+                    <FaMinusCircle className="single2__minus" />
+                  ) : (
+                    <FaPlusCircle className="single2__plus" />
+                  )}
+                </button>
+                <button
+                  className="single2__btn-icons"
+                  onClick={() => {
+                    setToggle6(!toggle6);
+                  }}>
+                  {toggle6 ? (
+                    <FaMinusCircle className="single2__minus" />
+                  ) : (
+                    <FaPlusCircle className="single2__plus" />
+                  )}
+                </button>
+                <button
+                  className="single2__btn-icons"
+                  onClick={() => {
+                    setToggle7(!toggle7);
+                  }}>
+                  {toggle7 ? (
+                    <FaMinusCircle className="single2__minus" />
+                  ) : (
+                    <FaPlusCircle className="single2__plus" />
+                  )}
+                </button>
+                <button
+                  className="single2__btn-icons"
+                  onClick={() => {
+                    setToggle8(!toggle8);
+                  }}>
+                  {toggle8 ? (
+                    <FaMinusCircle className="single2__minus" />
+                  ) : (
+                    <FaPlusCircle className="single2__plus" />
+                  )}
+                </button>
+                <button
+                  className="single2__btn-icons"
+                  onClick={() => {
+                    setToggle9(!toggle9);
+                  }}>
+                  {toggle9 ? (
+                    <FaMinusCircle className="single2__minus" />
+                  ) : (
+                    <FaPlusCircle className="single2__plus" />
+                  )}
+                </button>
+                <button
+                  className="single2__btn-icons"
+                  onClick={() => {
+                    setToggle10(!toggle10);
+                  }}>
+                  {toggle10 ? (
+                    <FaMinusCircle className="single2__minus" />
+                  ) : (
+                    <FaPlusCircle className="single2__plus" />
+                  )}
+                </button>
+                <button
+                  className="single2__btn-icons"
+                  onClick={() => {
+                    setToggle11(!toggle11);
+                  }}>
+                  {toggle11 ? (
+                    <FaMinusCircle className="single2__minus" />
+                  ) : (
+                    <FaPlusCircle className="single2__plus" />
+                  )}
+                </button>
+                <button
+                  className="single2__btn-icons"
+                  onClick={() => {
+                    setToggle12(!toggle12);
+                  }}>
+                  {toggle12 ? (
+                    <FaMinusCircle className="single2__minus" />
+                  ) : (
+                    <FaPlusCircle className="single2__plus" />
+                  )}
+                </button>
+                <button
+                  className="single2__btn-icons"
+                  onClick={() => {
+                    setToggle13(!toggle13);
+                  }}>
+                  {toggle13 ? (
+                    <FaMinusCircle className="single2__minus" />
+                  ) : (
+                    <FaPlusCircle className="single2__plus" />
+                  )}
+                </button>
+                <button
+                  className="single2__btn-icons"
+                  onClick={() => {
+                    setToggle14(!toggle14);
+                  }}>
+                  {toggle14 ? (
+                    <FaMinusCircle className="single2__minus" />
+                  ) : (
+                    <FaPlusCircle className="single2__plus" />
+                  )}
+                </button>
               </div>
-            </div>
-            <h2 className="single__title">To'lovlar</h2>
-            <div className="single__box-end">
-              <p className="single__desc">Ma'lumotlar topilmadi 🥲</p>
             </div>
           </div>
         </div>

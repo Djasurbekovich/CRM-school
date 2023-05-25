@@ -1,4 +1,4 @@
-.single {
+.single2 {
   &__wrap {
     position: absolute;
     width: 80%;
@@ -166,34 +166,50 @@
     gap: 30px;
   }
   &__btn {
-    width: 280px;
-    height: 36px;
+    width: 440px;
+    height: 40px;
     font-family: "Varela Round", sans-serif;
     font-size: 16px;
     box-shadow: 1px 1px 10px #d3d3d3;
   }
-  &__science {
+  &__table {
+    width: 96%;
+    border-radius: 16px;
+    background-color: #ffffff;
+    padding: 25px;
+    box-shadow: 1px 1px 10px #d3d3d3;
+  }
+  &__titles {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    background-color: #ffffff;
-    padding: 15px 25px;
-    border-left: 5px solid #0000ff;
-    border-radius: 5px;
-    box-shadow: 1px 5px 10px #d3d3d3;
+    border-bottom: 1px solid #d3d3d3;
+    padding-bottom: 16px;
   }
-  &__icon-flag {
-    font-size: x-large;
-    color: #808080;
+  &__title-t {
+    font-weight: bold;
+    font-size: large;
+    letter-spacing: 0.5px;
   }
-  &__box-rb {
-    width: 50%;
+  &__texts {
     display: flex;
-    flex-direction: column;
-    row-gap: 20px;
-    background-color: #ffffff;
-    border-radius: 5px;
-    padding: 20px 15px;
+    align-items: center;
+    justify-content: space-between;
+    text-align: left;
+    border-bottom: 1px solid #d3d3d3;
+    padding: 16px 0;
+  }
+  &__btn-icons {
+    font-size: larger;
+    background-color: initial;
+    border: none;
+    cursor: pointer;
+  }
+  &__plus {
+    color: #32cd32;
+  }
+  &__minus {
+    color: #ff0000;
   }
   &__display {
     display: flex;
@@ -213,11 +229,5 @@
     span {
       font-weight: bold;
     }
-  }
-  &__box-end {
-    text-align: center;
-    background-color: #ffffff;
-    border-radius: 5px;
-    padding: 20px;
   }
 }

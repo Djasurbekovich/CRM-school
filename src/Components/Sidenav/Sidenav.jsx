@@ -26,9 +26,9 @@ import Students from "../../Pages/Students/Students";
 import Teachers from "../../Pages/Teachers/Teachers";
 import Courses from "../../Pages/Courses/Courses";
 import Groups from "../../Pages/Groups/Groups";
-import "./Sidenav.scss";
 import Lids from "../../Pages/Lids/Lids";
 import Settings from "../../Pages/Settings/Settings";
+import "./Sidenav.scss";
 
 const Sidenav = () => {
   return (
