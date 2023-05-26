@@ -186,6 +186,7 @@ export default function Sidenavbar() {
       <AppBar position="fixed" open={open}>
         <Toolbar>
           <IconButton
+            className="header__menu"
             color="inherit"
             aria-label="open drawer"
             onClick={handleDrawerOpen}

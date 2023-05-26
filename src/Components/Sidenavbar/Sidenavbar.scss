@@ -98,3 +98,18 @@
 hr {
   display: none;
 }
+
+@media only screen and (max-width: 450px) {
+  .header {
+    &__menu {
+      display: none !important;
+    }
+    &__input,
+    &__search {
+      display: none;
+    }
+    &__logo {
+      margin-left: -95px;
+    }
+  }
+}

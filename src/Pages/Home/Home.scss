@@ -1781,3 +1781,30 @@ h2 {
 .react-datepicker-wrapper {
   width: 9%;
 }
+
+@media only screen and (max-width: 450px) {
+  .home {
+    &__calendar {
+      width: 80%;
+      top: 12.5%;
+      left: 17%;
+    }
+    &__list {
+      flex-wrap: wrap;
+      justify-content: center;
+      row-gap: 10px;
+    }
+    &__item {
+      flex-direction: row;
+      justify-content: space-between;
+      padding: 10px 20px;
+    }
+    &__input {
+      width: 250px !important;
+    }
+    &__dates {
+      gap: 90px;
+      margin-right: 77px;
+    }
+  }
+}
