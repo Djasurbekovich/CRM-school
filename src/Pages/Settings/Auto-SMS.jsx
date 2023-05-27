@@ -13,10 +13,6 @@ const AutoSMS = () => {
     console.log(`switch to ${checked}`);
   };
 
-  const oonChange = (e) => {
-    console.log("Change:", e.target.value);
-  };
-
   return (
     <>
       <Sidenavbar />
@@ -65,7 +61,7 @@ const AutoSMS = () => {
                     <FaMousePointer />
                   </Button>
                 </div>
-                <Switch defaultChecked onChange={oonChange} />
+                <Switch />
               </li>
               <li className="set__sms-item">
                 <div className="set__sms-item-l">
@@ -82,7 +78,7 @@ const AutoSMS = () => {
                     <FaMousePointer />
                   </Button>
                 </div>
-                <Switch defaultChecked onChange={onChange} />
+                <Switch />
               </li>
               <li className="set__sms-item">
                 <div className="set__sms-item-l">
@@ -99,7 +95,7 @@ const AutoSMS = () => {
                     <FaMousePointer />
                   </Button>
                 </div>
-                <Switch defaultChecked onChange={onChange} />
+                <Switch />
               </li>
             </ul>
           </div>

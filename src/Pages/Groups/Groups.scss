@@ -52,6 +52,7 @@
     background-color: #ffffff;
     padding: 20px 25px 0;
     box-shadow: 1px 1px 10px #d3d3d3;
+    margin-bottom: 25px;
   }
   &__titles {
     display: flex;
@@ -83,6 +84,35 @@
     cursor: pointer;
     &:hover {
       color: #ffa500 !important;
+    }
+  }
+}
+
+@media only screen and (max-width: 450px) {
+  .groups {
+    &__wrap {
+      width: 83%;
+      top: 10%;
+    }
+    &__title {
+      font-size: larger;
+    }
+    &__table {
+      padding: 10px 10px 0;
+      margin-bottom: 10px;
+    }
+    &__titles {
+      padding: 25px 0;
+    }
+    &__title-t {
+      font-size: small;
+    }
+    &__texts {
+      font-size: x-small;
+      padding: 10px 0;
+    }
+    &__pen {
+      font-size: small;
     }
   }
 }

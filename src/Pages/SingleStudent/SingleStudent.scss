@@ -213,3 +213,28 @@
     padding: 20px;
   }
 }
+
+@media only screen and (max-width: 450px) {
+  .single {
+    &__wrap {
+      width: 81.5%;
+      top: 12%;
+      right: 0;
+    }
+    &__box {
+      flex-direction: column;
+      row-gap: 30px;
+      margin-bottom: 20px;
+    }
+    &__box-left {
+      width: 93.5%;
+    }
+    &__btns {
+      flex-direction: column;
+      row-gap: 10px;
+    }
+    &__box-rb {
+      width: 100%;
+    }
+  }
+}

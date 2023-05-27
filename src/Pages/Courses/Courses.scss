@@ -63,8 +63,11 @@
     flex-wrap: wrap;
     align-items: center;
     justify-content: space-between;
-    row-gap: 30px;
+    row-gap: 50px;
     padding: 0 15px;
+  }
+  &__list {
+    margin-bottom: 25px;
   }
   &__item {
     width: 270px;
@@ -122,11 +125,14 @@
       padding: 15px 35px 0 10px;
     }
     &__title {
-      font-size: x-large;
+      font-size: larger;
     }
     &__line {
       width: 87%;
       margin: 15px 10px;
+    }
+    &__box {
+      row-gap: 15px;
     }
     &__item,
     &__img-wrap {
